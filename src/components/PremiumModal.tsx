@@ -1,0 +1,2 @@
+"use client";
+export default function PremiumModal({open,onClose}:{open:boolean;onClose:()=>void}){if(!open)return null; return <div className="fixed inset-0 bg-black/30 grid place-items-center"><div className="bg-white rounded-3xl p-6 max-w-md w-full"><h3 className="text-xl font-semibold">RuangTeduh Premium</h3><ul className="list-disc ml-6 my-4 text-slate-600"><li>Unlimited chat</li><li>Voice companion</li><li>Extended memory</li><li>Exclusive personas</li></ul><button onClick={onClose} className="px-4 py-2 bg-softBlue text-white rounded-xl">Tutup</button></div></div>}
