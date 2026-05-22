@@ -1,0 +1,1 @@
+export default function Settings(){return <main className="p-8"><h1 className="text-2xl font-bold">Settings</h1><p className="text-slate-600 mt-2">Daily check-in (future): Mood scale 1-10 + emoji picker.</p></main>}
